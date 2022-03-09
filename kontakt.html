@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Kontakt</title>
+
+  </head>
+
+
+  <body>
+
+    <h1>Kontakt</h1>
+
+    <hr> <!-- Navigation -->
+    <h3>Navigation</h3>
+    <a href="index.html">Startseite</a><br>
+    <a href="html.html">HTML</a><br>
+    <a href="css.html">CSS</a><br>
+    <a href="page1.html">Page 1</a><br>
+    <a href="documents/hyperlinks.html">Hyperlinks</a><br>
+    <a href="kontakt.html">Kontakt</a>
+    <hr>
+
+    <!-- Kontaktformular Seite -->
+
+    <h2>Kontaktformular</h2>
+    <p>Haben wir Ihr Interesse geweckt? Dann nutzen Sie unser Kontaktformular
+      und wir werden uns zeitnah bei Ihnen melden.</p>
+    <p>Die mit *Stern gekennzeichneten Felder sind Pflichfelder und müssen ausgefüllt werden.</p>
+
+    <form action="mailto:tx93@topien.de" method="post" enctype="text/plain">
+
+      <p class="formular"><label for="Vorname">Vorname*:</label> <input type="text" id="Vorname" placeholder="Vorname eingeben" required></p>
+      <p class="formular"><label for="Nachname">Nachname*:</label> <input type="text" id="Nachname" placeholder="Nachname eingeben" required></p>
+      <p class="formular"><label for="PLZ">PLZ:</label> <input type="text" id="PLZ" maxlength="5"</p>
+      <p class="formular"><label for="Ort">Ort:</label> <input type="text" id="Ort"</p>
+      <p class="formular"><label for="Anschrift">Anschrift:</label> <input type="text" id="Anschrift"</p>
+      <p class="formular"><label for="E-Mail">E-Mail*:</label> <input type="text" id="E-Mail" placeholder="name@adresse.de" required></p>
+
+      <input type="submit" id="Absenden" value="Absenden">&nbsp;<input type="reset" id="Formular zurücksetzen" value="Formular zurücksetzen">
+
+      <hr>
+      <h2 id="formularelemente">Weitere Formularelemente</h2>
+
+      <!-- Auswahlkästchen / Checkbox -->
+      <input type="checkbox"  id="Checkbox" value="OK"> <label for="checkbox">Hiermit erkläre ich mich einverstanden</label>
+
+      <!-- Multiple Choice -->
+      <p>Bitte wählen sie eine Konaktmethode:</p>
+      <select size=4 multiple>
+        <optgroup label="Konventionell">
+          <option>Brief</option>
+          <option>Taube</option>
+        </optgroup>
+        <optgroup label="Elektronisch">
+          <option>E-Mail</option>
+          <option>Handy</option
+        </optgroup>
+      </select>
+
+      <!-- Datumsfeld -->
+      <p>Datum</p>
+      <input type="date" id="Datum" value="2022" min="2022-01-01" max="2022-12-31">
+
+      <!-- E-Mail -->
+      <p>E-Mail</p>
+      <input type="email" id="E-Mail_Field" placeholder="max@mustermann.de">
+
+      <!-- Farbe -->
+      <p>Farbe</p>
+      <input type="color" id="Farbe">
+
+      <!-- Telefon -->
+      <p>Telefon</p>
+      <input type="tel" id="Telefon" placeholder="+49 1234 56789">
+
+      <!-- Zeit -->
+      <p>Zeit</p>
+      <input type="time" id="Zeit">
+
+      <!-- Nummer (z.B.: Menge) -->
+<input type="number" id="Numer" value="1" min="1" max="10">
+
+
+    </form>
+
+    <hr>
+    <p>The cake is a lie!</p>
+
+  </body>
+
+</html>
