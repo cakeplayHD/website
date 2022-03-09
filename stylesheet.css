@@ -1,0 +1,115 @@
+body {
+  font-family: SF Pro Text, arial, helvetica, sans-serif;
+}
+
+/* Formatierung Überschriften */
+
+h1 {
+    color: #0000FF;
+    font-size: 24px;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 16px;
+}
+h2, h3{
+  color: darkviolet;
+}
+
+/********** Formatierungen Textbereich **********/
+
+.rot{
+  color: #FF0000;
+}</label>
+
+.lila{
+  color: darkviolet;
+}
+
+/********** Formatierung für Listen -> disc, circle square -> roman und alpha **********/
+
+ul{
+  list-style-type: square;
+}
+
+ol{
+  list-style-type: lower-alpha;
+}
+
+ol.roman{
+  list-style-type: upper-roman;
+}
+
+ol.alpha{
+  list-style-type: upper-alpha;
+}
+
+/********** Formatierung Linien **********/
+
+hr{
+    height: 1px;
+    background-color: #00FF00;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+table{
+
+}
+
+caption{
+  background-color: #000;
+  color: #FFF;
+}
+
+th{
+  background-color: #666;
+  color: #FFF;
+}
+
+td{
+  background-color: #EEE;
+  margin: 12px;
+  padding: 10px 10px 6px 6px;
+  text-align: center;
+  vertical-align: top;
+}
+
+td.pause{
+  background-color: #CCC;
+}
+
+/********** Formatierung Formular **********/
+
+label {
+  display: inline-block;
+  width: 120px;
+}
+
+.formular{
+  background-color: #EEE;
+  padding: 6px;
+  width: 310px;
+  margin-bottom: 6px;
+  margin-top: -6px;
+
+}
+
+a:focus{
+  background-color: #FF0000;
+  color: #FFF
+}
+a:hover{
+  color: #FF0000;
+  text-decoration: none;
+}
+a:visited{
+  color: #00FF00;
+  text-decoration: overline;
+}
+a:active{
+  background-color: #FF0000;
+  color: #FFF
+}
