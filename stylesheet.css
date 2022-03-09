@@ -103,7 +103,7 @@ a:focus{
 }
 a:hover{
   color: #FF0000;
-  text-decoration: none;
+  text-decoration: blink;
 }
 a:visited{
   color: #00FF00;
