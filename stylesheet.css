@@ -1,5 +1,9 @@
 body {
   font-family: SF Pro Text, arial, helvetica, sans-serif;
+  font-size: 24px;
+  background-image: url(images/background.jpg);
+  background-position:
+
 }
 
 /* Formatierung Überschriften */
@@ -22,7 +26,7 @@ h2, h3{
 
 .rot{
   color: #FF0000;
-}</label>
+}
 
 .lila{
   color: darkviolet;
@@ -104,6 +108,7 @@ a:focus{
 a:hover{
   color: #FF0000;
   text-decoration: blink;
+  font-weight: bold;
 }
 a:visited{
   color: #00FF00;
