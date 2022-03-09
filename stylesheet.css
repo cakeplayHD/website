@@ -118,3 +118,17 @@ a:active{
   background-color: #FF0000;
   color: #FFF
 }
+
+/********** Formatierung DIV-Container **********/
+
+#div-container{
+/* Border */
+  border: 5px solid /* solid/dotted/dashed/groove/ridge/inset/outset */ #CCC;
+  border-radius: 10px;
+  margin: 10px 50px 10px 50px;
+  padding: 30px;
+
+/* Text */
+  text-align: center;
+
+}
